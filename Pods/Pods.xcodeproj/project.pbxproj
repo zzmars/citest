@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		018325A2E6AB80A92D99A39C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E17E92B9BDDDF23A5F446C /* Foundation.framework */; };
+		1DF228D7B4439C2355E907CA /* LPHTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 282FA50FD3F9FFA22515A8F2 /* LPHTTPResponse.h */; };
+		391F7DCAF24A94F05282DCCC /* LPHTTPFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = EC264845D9C4098D72E278AB /* LPHTTPFileResponse.h */; };
+		4F5FB9F46B508D75647FAE88 /* Pods-CITest-cal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6160AB3A3365D84195E6620 /* Pods-CITest-cal-dummy.m */; };
+		599262DFA21EDE6EBA20A4C6 /* LPHTTPAsyncFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BE5FCC230C4F4C280CE11C0 /* LPHTTPAsyncFileResponse.h */; };
+		90016BC2ACE0BA20D3FF9BE7 /* LPHTTPDynamicFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AE552A39A06AE0E5FF2A50D2 /* LPHTTPDynamicFileResponse.h */; };
+		91AC48626EAF6BFAAD05DC7B /* LPRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 88AAB29655F1708D6DE4DCD6 /* LPRouter.h */; };
+		99DB6AB5827BF6F51188CF9A /* LPWebQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC08639A237D504E1AE509 /* LPWebQuery.h */; };
+		A02F07FA2A215512A08B13DB /* Pods-CITest-cal-Calabash-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B621DBE86A6ED15139F711 /* Pods-CITest-cal-Calabash-dummy.m */; };
+		C34FFEA8E7FCCB664A947C80 /* CalabashServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B13B83D294D655BFDF8B9D /* CalabashServer.h */; };
+		E3AE87E5F97142FC0CBDE920 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D9B34660C57A99D3811B4AD /* CFNetwork.framework */; };
+		EBB8D19EDB17BD03FB776787 /* LPRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E5D0AD9636B362C2F6F1251 /* LPRoute.h */; };
+		EDEB8C5FE270CAE0CAD04DC8 /* LPVersionRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = C3CE560254DAD24AFE66B914 /* LPVersionRoute.h */; };
+		F322AE2BF4CFF0D447EF92DB /* LPHTTPDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAE0C8F70B344213A17D672 /* LPHTTPDataResponse.h */; };
+		FDF195365312C5311829E572 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E17E92B9BDDDF23A5F446C /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DCE7EB848BCC1D2D48DE076 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492AC2ACD08C9AE8F1603A69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59430F323590C2BBD44E26FA;
+			remoteInfo = "Pods-CITest-cal-Calabash";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0033ED052BCA3F8970420978 /* libPods-CITest-cal-Calabash.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CITest-cal-Calabash.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14473DE52B2C4D2C36B7F7CA /* Pods-CITest-cal-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CITest-cal-resources.sh"; sourceTree = "<group>"; };
+		1769F4C9DB26EBA03A815847 /* Pods-CITest-cal-Calabash-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CITest-cal-Calabash-prefix.pch"; sourceTree = "<group>"; };
+		17B621DBE86A6ED15139F711 /* Pods-CITest-cal-Calabash-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CITest-cal-Calabash-dummy.m"; sourceTree = "<group>"; };
+		1D9B34660C57A99D3811B4AD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		1E5D0AD9636B362C2F6F1251 /* LPRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPRoute.h; path = calabash.framework/Versions/A/Headers/LPRoute.h; sourceTree = "<group>"; };
+		282FA50FD3F9FFA22515A8F2 /* LPHTTPResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPHTTPResponse.h; path = calabash.framework/Versions/A/Headers/LPHTTPResponse.h; sourceTree = "<group>"; };
+		294531E50D4E055E229A0D5C /* Pods-CITest-cal-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CITest-cal-environment.h"; sourceTree = "<group>"; };
+		2BCC08639A237D504E1AE509 /* LPWebQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPWebQuery.h; path = calabash.framework/Versions/A/Headers/LPWebQuery.h; sourceTree = "<group>"; };
+		2BE5FCC230C4F4C280CE11C0 /* LPHTTPAsyncFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPHTTPAsyncFileResponse.h; path = calabash.framework/Versions/A/Headers/LPHTTPAsyncFileResponse.h; sourceTree = "<group>"; };
+		37B13B83D294D655BFDF8B9D /* CalabashServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CalabashServer.h; path = calabash.framework/Versions/A/Headers/CalabashServer.h; sourceTree = "<group>"; };
+		6ACD400FF3D3B0B44CC2C4E7 /* Pods-CITest-cal-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CITest-cal-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73B056A2A422922399AA5204 /* Pods-CITest-cal-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CITest-cal-acknowledgements.plist"; sourceTree = "<group>"; };
+		758CBEB09851F522217C3157 /* Pods-CITest-cal-Calabash.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CITest-cal-Calabash.xcconfig"; sourceTree = "<group>"; };
+		88AAB29655F1708D6DE4DCD6 /* LPRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPRouter.h; path = calabash.framework/Versions/A/Headers/LPRouter.h; sourceTree = "<group>"; };
+		99DC57ACB025601293A28447 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F84BF34CFD0B9C30F0B0040 /* Pods-CITest-cal-Calabash-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CITest-cal-Calabash-Private.xcconfig"; sourceTree = "<group>"; };
+		AE552A39A06AE0E5FF2A50D2 /* LPHTTPDynamicFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPHTTPDynamicFileResponse.h; path = calabash.framework/Versions/A/Headers/LPHTTPDynamicFileResponse.h; sourceTree = "<group>"; };
+		B6160AB3A3365D84195E6620 /* Pods-CITest-cal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CITest-cal-dummy.m"; sourceTree = "<group>"; };
+		B9853139C8BBA334CF786F60 /* Pods-CITest-cal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CITest-cal.release.xcconfig"; sourceTree = "<group>"; };
+		C3CE560254DAD24AFE66B914 /* LPVersionRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPVersionRoute.h; path = calabash.framework/Versions/A/Headers/LPVersionRoute.h; sourceTree = "<group>"; };
+		E70334E95F0CF12C9D29F961 /* Pods-CITest-cal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CITest-cal.debug.xcconfig"; sourceTree = "<group>"; };
+		E9E17E92B9BDDDF23A5F446C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EC264845D9C4098D72E278AB /* LPHTTPFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPHTTPFileResponse.h; path = calabash.framework/Versions/A/Headers/LPHTTPFileResponse.h; sourceTree = "<group>"; };
+		EEB453C17F9E43A37E51A1C3 /* libPods-CITest-cal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CITest-cal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBAE0C8F70B344213A17D672 /* LPHTTPDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPHTTPDataResponse.h; path = calabash.framework/Versions/A/Headers/LPHTTPDataResponse.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36047BE2ECFDBDC71FFF64B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF195365312C5311829E572 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FB115FBBD740643E8C77DA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3AE87E5F97142FC0CBDE920 /* CFNetwork.framework in Frameworks */,
+				018325A2E6AB80A92D99A39C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		147A0D379DB88FD46CA85164 = {
+			isa = PBXGroup;
+			children = (
+				99DC57ACB025601293A28447 /* Podfile */,
+				319E1EFDE02D9296C9FC0D7F /* Frameworks */,
+				E42DC2C4EA41E1084C19E36B /* Pods */,
+				7F948F754332B2B8CD8D240C /* Products */,
+				1746323A70D8CD54C253B145 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		1746323A70D8CD54C253B145 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96F76E5C697489977E847B57 /* Pods-CITest-cal */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		319E1EFDE02D9296C9FC0D7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F244E5054570FAC6EDAE18DD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F948F754332B2B8CD8D240C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB453C17F9E43A37E51A1C3 /* libPods-CITest-cal.a */,
+				0033ED052BCA3F8970420978 /* libPods-CITest-cal-Calabash.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89800B26ACDC2B723A0C2BE9 /* Calabash */ = {
+			isa = PBXGroup;
+			children = (
+				37B13B83D294D655BFDF8B9D /* CalabashServer.h */,
+				2BE5FCC230C4F4C280CE11C0 /* LPHTTPAsyncFileResponse.h */,
+				FBAE0C8F70B344213A17D672 /* LPHTTPDataResponse.h */,
+				AE552A39A06AE0E5FF2A50D2 /* LPHTTPDynamicFileResponse.h */,
+				EC264845D9C4098D72E278AB /* LPHTTPFileResponse.h */,
+				282FA50FD3F9FFA22515A8F2 /* LPHTTPResponse.h */,
+				1E5D0AD9636B362C2F6F1251 /* LPRoute.h */,
+				88AAB29655F1708D6DE4DCD6 /* LPRouter.h */,
+				C3CE560254DAD24AFE66B914 /* LPVersionRoute.h */,
+				2BCC08639A237D504E1AE509 /* LPWebQuery.h */,
+				A3F76F0724D0BBED1F8D3713 /* Support Files */,
+			);
+			path = Calabash;
+			sourceTree = "<group>";
+		};
+		96F76E5C697489977E847B57 /* Pods-CITest-cal */ = {
+			isa = PBXGroup;
+			children = (
+				6ACD400FF3D3B0B44CC2C4E7 /* Pods-CITest-cal-acknowledgements.markdown */,
+				73B056A2A422922399AA5204 /* Pods-CITest-cal-acknowledgements.plist */,
+				B6160AB3A3365D84195E6620 /* Pods-CITest-cal-dummy.m */,
+				294531E50D4E055E229A0D5C /* Pods-CITest-cal-environment.h */,
+				14473DE52B2C4D2C36B7F7CA /* Pods-CITest-cal-resources.sh */,
+				E70334E95F0CF12C9D29F961 /* Pods-CITest-cal.debug.xcconfig */,
+				B9853139C8BBA334CF786F60 /* Pods-CITest-cal.release.xcconfig */,
+			);
+			name = "Pods-CITest-cal";
+			path = "Target Support Files/Pods-CITest-cal";
+			sourceTree = "<group>";
+		};
+		A3F76F0724D0BBED1F8D3713 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				758CBEB09851F522217C3157 /* Pods-CITest-cal-Calabash.xcconfig */,
+				9F84BF34CFD0B9C30F0B0040 /* Pods-CITest-cal-Calabash-Private.xcconfig */,
+				17B621DBE86A6ED15139F711 /* Pods-CITest-cal-Calabash-dummy.m */,
+				1769F4C9DB26EBA03A815847 /* Pods-CITest-cal-Calabash-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-CITest-cal-Calabash";
+			sourceTree = "<group>";
+		};
+		E42DC2C4EA41E1084C19E36B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89800B26ACDC2B723A0C2BE9 /* Calabash */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F244E5054570FAC6EDAE18DD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1D9B34660C57A99D3811B4AD /* CFNetwork.framework */,
+				E9E17E92B9BDDDF23A5F446C /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B64707BF0B61DA292D9ADB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34FFEA8E7FCCB664A947C80 /* CalabashServer.h in Headers */,
+				599262DFA21EDE6EBA20A4C6 /* LPHTTPAsyncFileResponse.h in Headers */,
+				F322AE2BF4CFF0D447EF92DB /* LPHTTPDataResponse.h in Headers */,
+				90016BC2ACE0BA20D3FF9BE7 /* LPHTTPDynamicFileResponse.h in Headers */,
+				391F7DCAF24A94F05282DCCC /* LPHTTPFileResponse.h in Headers */,
+				1DF228D7B4439C2355E907CA /* LPHTTPResponse.h in Headers */,
+				EBB8D19EDB17BD03FB776787 /* LPRoute.h in Headers */,
+				91AC48626EAF6BFAAD05DC7B /* LPRouter.h in Headers */,
+				EDEB8C5FE270CAE0CAD04DC8 /* LPVersionRoute.h in Headers */,
+				99DB6AB5827BF6F51188CF9A /* LPWebQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		59430F323590C2BBD44E26FA /* Pods-CITest-cal-Calabash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D202307D90E7C262514A07D /* Build configuration list for PBXNativeTarget "Pods-CITest-cal-Calabash" */;
+			buildPhases = (
+				6142EB4D076FA62591B7CE91 /* Sources */,
+				9FB115FBBD740643E8C77DA3 /* Frameworks */,
+				0B64707BF0B61DA292D9ADB2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CITest-cal-Calabash";
+			productName = "Pods-CITest-cal-Calabash";
+			productReference = 0033ED052BCA3F8970420978 /* libPods-CITest-cal-Calabash.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D1C50532296B5EA8F34B3E88 /* Pods-CITest-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 887BD9498ADA90B69F20CFBA /* Build configuration list for PBXNativeTarget "Pods-CITest-cal" */;
+			buildPhases = (
+				57F89B05146E1F05BF53785E /* Sources */,
+				36047BE2ECFDBDC71FFF64B0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6D83452C5EB7565D166287D /* PBXTargetDependency */,
+			);
+			name = "Pods-CITest-cal";
+			productName = "Pods-CITest-cal";
+			productReference = EEB453C17F9E43A37E51A1C3 /* libPods-CITest-cal.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		492AC2ACD08C9AE8F1603A69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 6EA0657D355E616F71672317 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 147A0D379DB88FD46CA85164;
+			productRefGroup = 7F948F754332B2B8CD8D240C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1C50532296B5EA8F34B3E88 /* Pods-CITest-cal */,
+				59430F323590C2BBD44E26FA /* Pods-CITest-cal-Calabash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57F89B05146E1F05BF53785E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5FB9F46B508D75647FAE88 /* Pods-CITest-cal-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6142EB4D076FA62591B7CE91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02F07FA2A215512A08B13DB /* Pods-CITest-cal-Calabash-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6D83452C5EB7565D166287D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CITest-cal-Calabash";
+			target = 59430F323590C2BBD44E26FA /* Pods-CITest-cal-Calabash */;
+			targetProxy = 5DCE7EB848BCC1D2D48DE076 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2AC1ED3B4D28D815AF74F070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F84BF34CFD0B9C30F0B0040 /* Pods-CITest-cal-Calabash-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CITest-cal-Calabash/Pods-CITest-cal-Calabash-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		440E12B1E488DF50A0DED3D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F84BF34CFD0B9C30F0B0040 /* Pods-CITest-cal-Calabash-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CITest-cal-Calabash/Pods-CITest-cal-Calabash-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		771A4BC594B456537B30F89E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9853139C8BBA334CF786F60 /* Pods-CITest-cal.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		95CBD14A247835D62EC7B5C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEA9CF013708CBDD35E6880B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EFF0B71F725C4AC27BA10B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E70334E95F0CF12C9D29F961 /* Pods-CITest-cal.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D202307D90E7C262514A07D /* Build configuration list for PBXNativeTarget "Pods-CITest-cal-Calabash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC1ED3B4D28D815AF74F070 /* Debug */,
+				440E12B1E488DF50A0DED3D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EA0657D355E616F71672317 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA9CF013708CBDD35E6880B /* Debug */,
+				95CBD14A247835D62EC7B5C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		887BD9498ADA90B69F20CFBA /* Build configuration list for PBXNativeTarget "Pods-CITest-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF0B71F725C4AC27BA10B34 /* Debug */,
+				771A4BC594B456537B30F89E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 492AC2ACD08C9AE8F1603A69 /* Project object */;
+}
